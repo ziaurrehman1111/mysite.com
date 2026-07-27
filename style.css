@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+     background-image: url(dd.jpg) ;
+    background-size: cover;
+  
+}
+#logo h3{
+   margin: 10px 21px;
+    color: white;
+    font-size: 22px;
+    font-weight: 150;
+ font-family:"Poppins", sans-serif;}
+
+#logo h3:hover{
+  color: rgb(235, 235, 12);
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 0, 0.146);
+    border: 2px solid rgba(4, 4, 5, 0.121) ;
+}
+
+
+.fa-bars-staggered{
+position: fixed;
+display: block;
+    top: 8%;
+    color: white;
+    right: 66px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction:row;
+    gap: 12px;
+    z-index: 1000;
+}
+.fa-bars-staggered:hover{
+    color: rgb(235, 235, 12);
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 0, 0.146);
+    border: 2px solid rgba(4, 4, 5, 0.121) ;
+}
+
+#navbar{
+    display: flex;
+    position: relative;
+}
+#navbar::before{
+    content: "";
+    
+    height:50px;
+    border-radius: 13px;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+    margin-top: 27px;
+}
+#logo{
+margin: 12px 13px;
+}
+#logo img{
+       height: 55px;
+    margin: 12px -33px;
+    margin-left: 88px;
+    padding: -4px
+
+}
+ul{
+color: rgb(231 64 0);
+    text-decoration: none;
+    margin: -46px -59px;
+    padding: 85px;
+
+}
+ul.container{
+    text-decoration: none;
+    
+}
+.iteam{
+    text-decoration: none;
+}
+#navbar ul{
+    display: flex;
+    font-size: 11px;
+    margin-left: 588px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    gap: 49px;
+     font-style: normal;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  font-weight: 100;
+
+ 
+}
+#navbar ul li{
+   list-style: none;
+ 
+}
+#navbar ul li a{
+  text-decoration: none;
+    color: white;
+
+}
+#navbar ul li a:hover{
+color: rgb(235, 235, 12);
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 0, 0.146);
+    border: 2px solid rgba(4, 4, 5, 0.121) ;
+}
+
+
+#home{
+display: flex;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    height: 247px;
+    flex-wrap: wrap;
+    padding: 47px 33px;
+}
+
+
+
+#home h1{
+    color: white;
+    text-align: center;
+     font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-weight:300;
+ 
+margin-top: 84px;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  margin-top:16px;
+}
+button{
+  background-color: rgba(18, 219, 202, 0.685);
+    border-radius: 3px;
+    height: 34px;
+    color: white;
+    margin-left: 25px;
+    margin-top: -9px;
+    margin-top: 7px;
+    color: rgba(196, 193, 193, 0.914);
+    width: 112px;
+    font-family: serif;
+    font-size: 20px;
+    cursor: pointer
+
+}
+button:hover{
+   color: rgb(235, 235, 12);
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 0, 0.146);
+    border: 2px solid rgba(4, 4, 5, 0.121) ;
+}
+
+
+
+
+
+
+h1.h-secendory{
+font-size: 23px;
+justify-content: center;
+align-items: center;
+color: white;
+margin: 22px 44px;
+display: flex;
+}
+p.p1{
+    display: flex;
+align-items: center;
+    justify-content: center;
+    font-size: medium;
+    color: burlywood;
+    margin: 22px 44px;
+    font-size: 18px;
+}
+section .service-container img{
+margin: 11px 33px;
+}
+.services{
+    margin: 34px;
+    display: flex;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    color: burlywood;
+    margin: 16px 34px;
+    font-size: 18px;
+}
+section .services.box{
+    border: 11px solid brown; 
+}
+footer{
+    position: fixed;
+  bottom: 1px;
+}
